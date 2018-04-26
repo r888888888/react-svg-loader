@@ -11,7 +11,9 @@ stages:
 jobs:
   include:
     - stage: lint
-      node_js: '8'
+node_js:
+- '8'
+- '10'
       script: yarn lint
     - stage: publish
       node_js: '8'
