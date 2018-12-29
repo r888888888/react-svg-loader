@@ -56,7 +56,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.1",
-    "tape": "^4.9.1",
+    "tape": "4.9.1",
     "through2": "^2.0.3"
   },
   "workspaces": [
